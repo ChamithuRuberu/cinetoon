@@ -4,7 +4,6 @@ import Image from 'next/image';
 
 export default function HeroSection() {
   // State for mobile menu expansion
-  const [expanded, setExpanded] = useState(false);
 
   return (
     <div className="relative">
