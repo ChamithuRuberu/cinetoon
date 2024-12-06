@@ -21,8 +21,8 @@ export default function HeroSection() {
         <div className="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="flex">
             <div className="w-full md:max-w-xs lg:max-w-md">
-              <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl">Weekly articles on design inspirations</h1>
-              <p className="mt-5 text-base font-normal leading-7 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vehicula massa in enim luctus. Rutrum arcu.</p>
+              <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl">Transforming Ideas into Stunning Digital Realities</h1>
+              <p className="mt-5 text-base font-normal leading-7 text-gray-500">Bringing life to 2D animations, digital art, and web designs.</p>
 
               <p className="mt-10 text-base font-bold text-gray-900">Join the email list to:</p>
               <ul className="mt-4 space-y-4">
