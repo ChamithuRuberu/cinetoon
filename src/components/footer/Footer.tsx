@@ -73,7 +73,7 @@ const footer = () => {
 
             {/* All Rights Reserved */}
 
-            <div className='pb-24 px-4'>
+            <div className='pb-10 px-4'>
                 <h3 className='text-center text-white'>@2024 - All Rights Reserved by <Link href="" target="_blank"> cinetoon.site</Link></h3>
             </div>
 
