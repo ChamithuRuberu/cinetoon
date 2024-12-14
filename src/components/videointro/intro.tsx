@@ -7,7 +7,7 @@ export default function Intro() {
 
 
     return (
-        <div className="relative w-full container px-5 overflow-hidden rounded-xl mx-auto mt-10 max-w-6xl">
+        <div className="relative w-full container px-5 overflow-hidden rounded-xl mx-auto mt-4 max-w-6xl">
             <div className="relative group">
                 <iframe
                     ref={iframeRef}
