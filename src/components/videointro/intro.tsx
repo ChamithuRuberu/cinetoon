@@ -9,7 +9,6 @@ export default function Intro() {
     return (
         <div className="relative w-full container px-5 overflow-hidden rounded-xl mx-auto mt-10 max-w-6xl">
             <div className="relative group">
-                {/* Embedded YouTube video */}
                 <iframe
                     ref={iframeRef}
                     src="video.mp4"
@@ -21,7 +20,6 @@ export default function Intro() {
                 ></iframe>
             </div>
 
-            {/* Custom Progress Bar (not applicable to YouTube iframe) */}
             <div className="mt-4 cursor-pointer">
                 <div className="relative w-full h-2 bg-gray-300 rounded-full">
                     <div
@@ -29,7 +27,6 @@ export default function Intro() {
                         style={{ width: `${progress}%` }}
                     ></div>
                 </div>
-                {/* Duration and Current Time (for custom video player, not applicable to iframe) */}
             </div>
         </div>
     )
