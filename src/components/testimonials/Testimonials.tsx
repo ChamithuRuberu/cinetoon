@@ -23,18 +23,18 @@ const postData: DataType[] = [
         detail: "Cinetoon delivered exceptional animated GIFs with fantastic storytelling and visual appeal. Their professionalism was top-notch, and working with them was a delight due to their quick responsiveness and proactive communication. They truly went ABOVE AND BEYOND! 👍"
     },
     {
-        profession: 'UX/UI Designer',
+        profession: 'Crypto Trader',
         name: 'Richard Marriott',
-        imgSrc: '/students/user-2.jpg',
+        imgSrc: '/students/richard.jpeg',
         starimg: '/students/stars.png',
         detail: "Cinetoon is the best animated telegram sticker creator here. Period. He went above and beyond with creating our sticker pack. His drawing and animation skills are next level. Every single sticker he created for us is amazing. 11/10. Strongly recommend! Thanks bro!"
     },
     {
-        profession: 'UX/UI Designer',
-        name: 'Tanzeel Ur Rehman',
-        imgSrc: '/students/user-3.jpg',
+        profession: 'Crypto Trader',
+        name: 'Esmaeil Mohammad',
+        imgSrc: '/students/es.jpeg',
         starimg: '/students/stars.png',
-        detail: "I have been a Junior Graphic Designer for more then 10 years. Some things are problem that I had and teach how to solve them. That's why this course is so great!"
+        detail: "One sentence is enough for this artist: He is very professional, expert, creative and unique. Thankful"
     },
     {
         profession: 'UX/UI Designer',

@@ -42,7 +42,7 @@ export default function Services() {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              Digital Arts
+              DigitalArts
             </Typography>
             <Typography variant="body2" sx={{ color: 'text.secondary' }}>
               Frogs are amphibians, commonly found in wetland environments and have over
@@ -64,7 +64,47 @@ export default function Services() {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              Snake
+            3D Animation
+            </Typography>
+            <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+              Snakes are legless reptiles found all over the world, with more than 3,000 species.
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Button size="small">Share</Button>
+            <Button size="small">Learn More</Button>
+          </CardActions>
+        </Card>
+        <Card sx={{ maxWidth: 345 }}>
+          <CardMedia
+            component="img"
+            alt="green iguana"
+            height="140"
+            image="/static/images/cards/contemplative-reptile.jpg"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+            Gaphic design
+            </Typography>
+            <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+              Snakes are legless reptiles found all over the world, with more than 3,000 species.
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Button size="small">Share</Button>
+            <Button size="small">Learn More</Button>
+          </CardActions>
+        </Card>
+        <Card sx={{ maxWidth: 345 }}>
+          <CardMedia
+            component="img"
+            alt="green iguana"
+            height="140"
+            image="/static/images/cards/contemplative-reptile.jpg"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+            Web design and dev
             </Typography>
             <Typography variant="body2" sx={{ color: 'text.secondary' }}>
               Snakes are legless reptiles found all over the world, with more than 3,000 species.
