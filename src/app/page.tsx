@@ -17,7 +17,7 @@ export default function Home() {
       <Technologies />
       <Intro />
       <Services/>
-      <About />
+      {/* <About /> */}
       <MultipleItems/>
       <Newsletter />
       <Footer />

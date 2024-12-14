@@ -16,18 +16,18 @@ interface DataType {
 
 const postData: DataType[] = [
     {
-        profession: 'UX/UI Designer',
-        name: 'Andrew Williams',
+        profession: 'Crypto Trader',
+        name: 'jake',
         imgSrc: '/students/user-1.jpg',
         starimg: '/students/stars.png',
-        detail: "I have been a Junior Graphic Designer for more then 10 years. Some things are problem that I had and teach how to solve them. That's why this course is so great!"
+        detail: "Cinetoon delivered exceptional animated GIFs with fantastic storytelling and visual appeal. Their professionalism was top-notch, and working with them was a delight due to their quick responsiveness and proactive communication. They truly went ABOVE AND BEYOND! 👍"
     },
     {
         profession: 'UX/UI Designer',
-        name: 'Cristian Doru Barin',
+        name: 'Richard Marriott',
         imgSrc: '/students/user-2.jpg',
         starimg: '/students/stars.png',
-        detail: "I have been a Junior Graphic Designer for more then 10 years. Some things are problem that I had and teach how to solve them. That's why this course is so great!"
+        detail: "Cinetoon is the best animated telegram sticker creator here. Period. He went above and beyond with creating our sticker pack. His drawing and animation skills are next level. Every single sticker he created for us is amazing. 11/10. Strongly recommend! Thanks bro!"
     },
     {
         profession: 'UX/UI Designer',
