@@ -5,8 +5,7 @@ export default function Intro() {
     const [progress] = useState(0);
     const iframeRef = useRef<HTMLIFrameElement | null>(null); 
 
-    const handleProgressClick = (e: React.MouseEvent) => {
-    };
+
     return (
         <div className="relative w-full container px-5 overflow-hidden rounded-xl mx-auto mt-10 max-w-6xl">
             <div className="relative group">
@@ -24,7 +23,7 @@ export default function Intro() {
 
             {/* Custom Progress Bar (not applicable to YouTube iframe) */}
             <div className="mt-4 cursor-pointer">
-                <div className="relative w-full h-2 bg-gray-300 rounded-full" onClick={handleProgressClick}>
+                <div className="relative w-full h-2 bg-gray-300 rounded-full">
                     <div
                         className="h-2 bg-blue-500 rounded-full transition-all duration-200"
                         style={{ width: `${progress}%` }}
