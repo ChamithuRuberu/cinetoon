@@ -1,0 +1,45 @@
+.image-slider {
+    display: flex;
+    overflow-x: hidden; /* Hide the overflowing images */
+    padding: 10px 0;
+    gap: 1rem; /* Space between images */
+    position: relative;
+  }
+  
+  /* Animate the images horizontally */
+  .image-slider-wrapper {
+    display: flex;
+    animation: slide 10s linear infinite; /* Animation to scroll the images */
+  }
+
+  /* Style for each image item */
+  .image-item {
+    flex-shrink: 0; /* Prevent images from shrinking */
+    transition: transform 0.3s ease;
+  }
+  
+  /* Style for images */
+  .image-item img {
+    width: 80px; /* Adjust image width */
+    height: 80px; /* Adjust image height */
+    object-fit: cover;
+    border-radius: 8px; /* Round corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Add hover effect on images */
+  .image-item img:hover {
+    transform: scale(1.1); /* Slightly scale the image on hover */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+  }
+
+  /* Keyframes for horizontal scrolling */
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%); /* Move images by the width of one set */
+    }
+  }
