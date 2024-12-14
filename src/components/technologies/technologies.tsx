@@ -67,63 +67,65 @@ export default function Technologies() {
                     </div>
                     <div className="image-item flex-shrink-0 w-48 h-48 mx-2">
                         <img
-                            src="/images/tech4.png"
+                            src="/ps.png"
                             alt="Technology 4"
-                            className="w-full h-full object-cover"
+                            className="w-14 h-14 object-cover"
                         />
                     </div>
                     <div className="image-item flex-shrink-0 w-48 h-48 mx-2">
                         <img
-                            src="/images/tech5.png"
+                            src="/xd.png"
                             alt="Technology 5"
-                            className="w-full h-full object-cover"
+                            className="w-14 h-14 object-cover"
                         />
                     </div>
                     <div className="image-item flex-shrink-0 w-48 h-48 mx-2">
                         <img
-                            src="/images/tech6.png"
+                            src="/maya.png"
                             alt="Technology 6"
-                            className="w-full h-full object-cover"
+                            className="w-14 h-14 object-cover"
                         />
                     </div>
                     {/* Duplicate Images for Seamless Loop */}
-                    <div className="image-item flex-shrink-0 w-48 h-48 mx-2">
+                    <div className="image-item flex-shrink-0 w-48 h-48 mx-0">
                         <img
                             src="/ae.png"
-                            alt="Technology 1 Duplicate"
+                            alt="Technology 1"
+                            className="w-14 h-14 object-cover"
+                        />
+                    </div>
+                    <div className="image-item flex-shrink-0 w-48 h-48 ">
+                        <img
+                            src="/ai.png"
+                            alt="Technology 2"
+                            className="w-14 h-14 object-cover"
+                        />
+                    </div>
+                    <div className="image-item flex-shrink-0 w-48 h-48 ">
+                        <img
+                            src="/pr.png"
+                            alt="Technology 3"
+                            className="w-14 h-14 object-cover"
+                        />
+                    </div>
+                    <div className="image-item flex-shrink-0 w-48 h-48 ">
+                        <img
+                            src="/ps.png"
+                            alt="Technology 4"
+                            className="w-14 h-14 object-cover"
+                        />
+                    </div>
+                    <div className="image-item flex-shrink-0 w-48 h-48 ">
+                        <img
+                            src="/xd.png"
+                            alt="Technology 5"
                             className="w-14 h-14 object-cover"
                         />
                     </div>
                     <div className="image-item flex-shrink-0 w-48 h-48 mx-2">
                         <img
-                            src="/ai.png"
-                            alt="Technology 2 Duplicate"
-                            className="w-14 h-14 object-cover"
-                        />
-                    </div><div className="image-item flex-shrink-0 w-48 h-48 mx-2">
-                        <img
-                            src="/ae.png"
-                            alt="Technology 1 Duplicate"
-                            className="w-14 h-14 object-cover"
-                        />
-                    </div>
-                    <div className="image-item flex-shrink-0 w-48 h-48 mx-2">
-                        <img
-                            src="/ai.png"
-                            alt="Technology 2 Duplicate"
-                            className="w-14 h-14 object-cover"
-                        />
-                    </div><div className="image-item flex-shrink-0 w-48 h-48 mx-2">
-                        <img
-                            src="/ae.png"
-                            alt="Technology 1 Duplicate"
-                            className="w-14 h-14 object-cover"
-                        />
-                    </div>
-                    <div className="image-item flex-shrink-0 w-48 h-48 mx-2">
-                        <img
-                            src="/ai.png"
-                            alt="Technology 2 Duplicate"
+                            src="/maya.png"
+                            alt="Technology 6"
                             className="w-14 h-14 object-cover"
                         />
                     </div>
