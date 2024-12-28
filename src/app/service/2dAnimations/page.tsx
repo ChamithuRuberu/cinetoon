@@ -1,4 +1,4 @@
-import Services from "@/components/service/Services";
+import Link from "next/link";
 import React from "react";
 
 export default function Animations() {
@@ -18,18 +18,18 @@ export default function Animations() {
                         <br className="hidden md:block" /> with Next.js and styled with Tailwind CSS
                     </h2>
                     <div className="flex justify-center gap-6">
-                        <a
+                        <Link
                             href="/"
                             className="py-3 px-6 text-md font-semibold bg-white text-black rounded-md shadow-lg hover:bg-gray-200 transition"
                         >
                             EXPLORE MORE
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                             href="/"
                             className=" px-6 py-3 text-md font-semibold bg-gradient-to-r from-blue-500 to-blue-800 text-white rounded-md shadow-lg hover:opacity-90 transition"
                         >
                             Contact Us
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
