@@ -15,7 +15,7 @@ export default function Services() {
             component="img"
             alt="green iguana"
             height="140"
-            image="/static/images/cards/contemplative-reptile.jpg"
+            image="./serviceImg/animations.png"
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
@@ -38,7 +38,7 @@ export default function Services() {
             component="img"
             alt="green iguana"
             height="140"
-            image="/static/images/cards/contemplative-reptile.jpg"
+            image="./serviceImg/digitalArts.png"
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
