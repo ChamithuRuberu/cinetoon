@@ -31,7 +31,7 @@ export default function Navbar() {
         <div className={`${isMenuOpen ? '' : 'hidden'} w-full md:block md:w-auto`}>
           <ul className="font-medium flex flex-col p-2 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
             <li>
-              <a href="#" className="block py-2 px-3 rounded hover:bg-blue-400  hover:text-black md:hover:bg-transparent md:border-0 md:hover:text-blue-400 md:p-0 text-white md:font-semibold">Home</a>
+              <a href="/" className="block py-2 px-3 rounded hover:bg-blue-400  hover:text-black md:hover:bg-transparent md:border-0 md:hover:text-blue-400 md:p-0 text-white md:font-semibold">Home</a>
             </li>
             <li>
               <a href="#" className="block py-2 px-3 rounded hover:bg-blue-400  hover:text-black md:hover:bg-transparent md:border-0 md:hover:text-blue-400 md:p-0 text-white md:font-semibold">Services</a>

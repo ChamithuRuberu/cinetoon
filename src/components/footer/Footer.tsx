@@ -24,7 +24,7 @@ const footer = () => {
     return (
         <div className="bg-gray-900 -mt-64" id="first-section">
             <div className="mx-auto max-w-2xl pt-64 pb-16 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-                <div className="mt-24 grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2 lg:grid-cols-12 xl:gap-x-18">
+                <div className="mt-10 grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2 lg:grid-cols-12 xl:gap-x-18">
 
                     {/* COLUMN-1 */}
 
