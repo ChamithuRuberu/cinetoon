@@ -13,7 +13,7 @@ export default function Services() {
   return (
     <>
       <div className="p-20 flex flex-col items-center justify-center bg-gray-50">
-        <h1 className="text-4xl font-bold text-gray-900 mb-8">SERVICES</h1>
+        <h1 className="text-5xl font-bold text-gray-900 mb-8">SERVICES</h1>
 
         {/* Flex container for cards */}
         <div className="flex gap-6 flex-wrap justify-center">

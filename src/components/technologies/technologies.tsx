@@ -32,101 +32,129 @@ export default function Technologies() {
     }, []);
 
     return (
-        <div className="mx-auto mt-20 overflow-hidden">
+        <div className="mx-auto mt-10 overflow-hidden">
            
             <div className="image-slider">
                 <div
                     ref={sliderRef}
-                    className="image-slider-wrapper flex flex-nowrap m-2"
+                    className="image-slider-wrapper flex flex-nowrap m-10"
                     style={{
                         display: "inline-flex",
                         willChange: "transform", // Optimization for smoother animations
                     }}
                 >
                     {/* Original Images */}
-                    <div className="image-item flex-shrink-0 w-48 h-48 mx-0">
+                    <div className="image-item flex-shrink-0 w-14 h-14 mx-0">
                         <img
                             src="/ae.png"
                             alt="Technology 1"
                             className="w-14 h-14 object-cover"
                         />
                     </div>
-                    <div className="image-item flex-shrink-0 w-48 h-48 mx-0">
+                    <div className="image-item flex-shrink-0 w-14 h-14 mx-10">
                         <img
                             src="/ai.png"
                             alt="Technology 2"
                             className="w-14 h-14 object-cover"
                         />
                     </div>
-                    <div className="image-item flex-shrink-0 w-48 h-48 mx-2">
+                    <div className="image-item flex-shrink-0 w-14 h-14 mx-10">
                         <img
                             src="/pr.png"
                             alt="Technology 3"
                             className="w-14 h-14 object-cover"
                         />
                     </div>
-                    <div className="image-item flex-shrink-0 w-48 h-48 mx-2">
+                    <div className="image-item flex-shrink-0 w-14 h-14 mx-10">
                         <img
                             src="/ps.png"
                             alt="Technology 4"
                             className="w-14 h-14 object-cover"
                         />
                     </div>
-                    <div className="image-item flex-shrink-0 w-48 h-48 mx-2">
+                    <div className="image-item flex-shrink-0 w-14 h-14 mx-10">
                         <img
                             src="/xd.png"
                             alt="Technology 5"
                             className="w-14 h-14 object-cover"
                         />
                     </div>
-                    <div className="image-item flex-shrink-0 w-48 h-48 mx-2">
+                    <div className="image-item flex-shrink-0 w-14 h-14 mx-10">
                         <img
                             src="/maya.png"
                             alt="Technology 6"
                             className="w-14 h-14 object-cover"
+                        />
+                    </div>
+                    <div className="image-item flex-shrink-0 w-14 h-14 mx-10">
+                        <img
+                            src="/java.png"
+                            alt="Technology 6"
+                            className="w-14 h-14 object-fill"
+                        />
+                    </div>
+                    <div className="image-item flex-shrink-0 w-14 h-14 mx-10">
+                        <img
+                            src="/nextjs.png"
+                            alt="Technology 6"
+                            className="w-14 h-14 object-contain"
                         />
                     </div>
                     {/* Duplicate Images for Seamless Loop */}
-                    <div className="image-item flex-shrink-0 w-48 h-48 mx-0">
+                    <div className="image-item flex-shrink-0 w-14 h-14 mx-10">
                         <img
                             src="/ae.png"
                             alt="Technology 1"
                             className="w-14 h-14 object-cover"
                         />
                     </div>
-                    <div className="image-item flex-shrink-0 w-48 h-48 ">
+                    <div className="image-item flex-shrink-0 w-14 h-14 mx-10">
                         <img
                             src="/ai.png"
                             alt="Technology 2"
                             className="w-14 h-14 object-cover"
                         />
                     </div>
-                    <div className="image-item flex-shrink-0 w-48 h-48 ">
+                    <div className="image-item flex-shrink-0 w-14 h-14 mx-10">
                         <img
                             src="/pr.png"
                             alt="Technology 3"
                             className="w-14 h-14 object-cover"
                         />
                     </div>
-                    <div className="image-item flex-shrink-0 w-48 h-48 ">
+                    <div className="image-item flex-shrink-0 w-14 h-14 mx-10">
                         <img
                             src="/ps.png"
                             alt="Technology 4"
                             className="w-14 h-14 object-cover"
                         />
                     </div>
-                    <div className="image-item flex-shrink-0 w-48 h-48 ">
+                    <div className="image-item flex-shrink-0 w-14 h-14 mx-10">
                         <img
                             src="/xd.png"
                             alt="Technology 5"
                             className="w-14 h-14 object-cover"
                         />
                     </div>
-                    <div className="image-item flex-shrink-0 w-48 h-48 mx-2">
+                    <div className="image-item flex-shrink-0 w-14 h-14 mx-10">
                         <img
                             src="/maya.png"
                             alt="Technology 6"
                             className="w-14 h-14 object-cover"
+                        />
+                    </div>
+                    <div className="image-item flex-shrink-0 w-14 h-14 mx-10">
+                        <img
+                            src="/java.png"
+                            alt="Technology 6"
+                            className="w-14 h-14 object-fill"
+                        />
+                    </div>
+                    <div className="image-item flex-shrink-0 w-14 h-14 mx-10">
+                        <img
+                            src="/nextjs.png"
+                            alt="Technology 6"
+                            className="w-14 h-14 object-contain"
                         />
                     </div>
                 </div>

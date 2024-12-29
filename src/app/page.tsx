@@ -5,6 +5,7 @@ import Intro from '@/components/videointro/intro'
 import Newsletter from '@/components/Newsletter/Newsletter'
 import MultipleItems from '@/components/testimonials/Testimonials'
 import Services from '@/components/service/Services'
+import Carousel from '@/components/feature/FeatureProjects'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Services/>
       {/* <About /> */}
       <MultipleItems/>
+      <Carousel/>
       <Newsletter />
     </>
   )
