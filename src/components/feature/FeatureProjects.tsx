@@ -34,58 +34,64 @@ const Slideshow = () => {
     };
 
     return (
-        <div className="p-20 flex flex-col items-center justify-center bg-gray-50">
-            <h1 className="text-5xl font-bold text-gray-900 mb-8">FEATURED PROJECTS</h1>
-            <div className="relative w-full max-w-4xl mx-auto overflow-hidden">
-                {/* Slides */}
-                <div
-                    className="flex transition-transform duration-500"
-                    style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-                >
-                    {slides.map((slide, index) => (
-                        <div
-                            key={index}
-                            className="relative w-full flex-shrink-0"
-                        >
-                            <img
-                                src={slide.image}
-                                alt={slide.title}
-                                className="w-full h-full object-cover"
-                            />
-                            <div className="absolute top-0 left-0 w-1/2 h-full bg-black/50 text-white p-10">
-                                <h2 className="text-3xl font-extrabold pt-20">{slide.title}</h2>
-                                <p className="text-sm pt-2">{slide.description}</p>
-                                <p className="text-lg pt-12 text-center text-gray-400"> | CINETOON</p>
-                            </div>
-                        </div>
-                    ))}
-                </div>
-
-                {/* Controls */}
-                <button
-                    onClick={prevSlide}
-                    className="absolute left-0 top-1/2 -translate-y-1/2 bg-black/50 text-white px-4 py-2 rounded-r-md hover:bg-black"
-                >
-                    &lt;
-                </button>
-                <button
-                    onClick={nextSlide}
-                    className="absolute right-0 top-1/2 -translate-y-1/2 bg-black/50 text-white px-4 py-2 rounded-l-md hover:bg-black"
-                >
-                    &gt;
-                </button>
+        <div className="p-5 sm:p-10 md:p-20 flex flex-col items-center justify-center bg-gray-50">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6 md:mb-8 text-center">
+        FEATURED PROJECTS
+      </h1>
+      <div className="relative w-full max-w-4xl mx-auto overflow-hidden">
+        {/* Slides */}
+        <div
+          className="flex transition-transform duration-500"
+          style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+        >
+          {slides.map((slide, index) => (
+            <div key={index} className="relative w-full flex-shrink-0">
+              <img
+                src={slide.image}
+                alt={slide.title}
+                className="w-full h-auto object-cover"
+              />
+              <div className="absolute top-0 left-0 w-full sm:w-1/2 h-full bg-black/50 text-white p-5 sm:p-10">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold pt-10 sm:pt-20">
+                  {slide.title}
+                </h2>
+                <p className="text-xs sm:text-sm md:text-base pt-2">
+                  {slide.description}
+                </p>
+                <p className="text-sm sm:text-lg pt-6 sm:pt-12 text-center text-gray-400">
+                  | CINETOON
+                </p>
+              </div>
             </div>
-            <h1 className="text-5xl font-bold pt-20 text-gray-500">FOLLOW US</h1>
-            <Link
-                className="text-lg font-bold pt-2 text-customBlue"
-                href="https://www.instagram.com/cinetoon_studio?igsh=djdrcHB2N3Z3aTB5"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                @cinetoon_studio
-            </Link>
-
+          ))}
         </div>
+
+        {/* Controls */}
+        <button
+          onClick={prevSlide}
+          className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-black/50 text-white px-2 sm:px-4 py-1 sm:py-2 rounded-r-md hover:bg-black"
+        >
+          &lt;
+        </button>
+        <button
+          onClick={nextSlide}
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-black/50 text-white px-2 sm:px-4 py-1 sm:py-2 rounded-l-md hover:bg-black"
+        >
+          &gt;
+        </button>
+      </div>
+      <h1 className="font-bold pt-10 sm:pt-15 md:pt-20 text-gray-500 text-3xl sm:text-4xl md:text-5xl">
+        FOLLOW US
+      </h1>
+      <Link
+        className="text-base sm:text-lg font-bold pt-2 text-customBlue"
+        href="https://www.instagram.com/cinetoon_studio?igsh=djdrcHB2N3Z3aTB5"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        @cinetoon_studio
+      </Link>
+    </div>
     );
 };
 

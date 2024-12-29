@@ -23,11 +23,11 @@ const products: ProductType[] = [
 const footer = () => {
     return (
         <div className="bg-gray-900 -mt-64" id="first-section">
-            <div className="mx-auto max-w-2xl pt-64 pb-16 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+            <div className="mx-auto max-w-auto pt-64 pb-16 px-4 sm:px-6 lg:max-w-auto lg:px-16">
                 <div className="mt-10 grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2 lg:grid-cols-12 xl:gap-x-18">
 
                     {/* COLUMN-1 */}
-                    <div className="col-span-1 sm:col-span-2 lg:col-span-4">
+                    <div className="col-span-2 md:col-span-2 lg:col-span-4">
                         <img src={'/logo.png'} alt="logo" className="pb-4" />
                         <h3 className="text-white text-lg font-medium leading-9 mb-4 lg:mb-20">Level up your skills, and get dream <br /> job with passion.</h3>
                         <div className="flex gap-6 sm:gap-10 justify-center lg:justify-start">
@@ -48,7 +48,7 @@ const footer = () => {
 
                     {/* COLUMNS-2/3 (PRODUCT LINKS) */}
                     {products.map((product) => (
-                        <div key={product.id} className="group relative col-span-2 sm:col-span-1 lg:col-span-2">
+                        <div key={product.id} className="group relative col-span-1 md:col-span-1 lg:col-span-2">
                             <p className="text-white text-xl font-semibold mb-9">{product.section}</p>
                             <ul>
                                 {product.link.map((link, index) => (
@@ -63,7 +63,7 @@ const footer = () => {
                     ))}
 
                     {/* COLUMN-4 (NEWSLETTER) */}
-                    <div className="col-span-1 sm:col-span-2 lg:col-span-4">
+                    <div className="col-span-2 md:col-span-2 lg:col-span-4">
                         <h3 className="text-white text-xl font-semibold mb-6">Stay up to date</h3>
                         <div className="relative text-white focus-within:text-white flex flex-row-reverse">
                             <input

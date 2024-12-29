@@ -89,7 +89,7 @@ export default class MultipleItems extends Component {
                 <div className="mx-auto max-w-2xl px-4 pt-16 pb-20 sm:pt-32 lg:max-w-7xl lg:px-8">
 
                     <div className='sm:flex justify-between items-center pb-6'>
-                        <h2 className="text-3xl sm:text-5xl font-bold tracking-tight text-gray-900 my-4">What Our Happy Clients Says</h2>
+                        <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-gray-900 my-4 text-center">What Our Happy Clients Says</h2>
                         <div>
                             <button className="bg-transparent hover:bg-purple text-purple font-semibold hover:dark:bg-gray-900 hover:text-white py-3 px-4 border border-lightgrey hover:border-transparent rounded">
                                 Give Your Review
@@ -109,7 +109,7 @@ export default class MultipleItems extends Component {
                                     <h3 className='text-sm pt-4 pb-2'>{items.profession}</h3>
                                     <h4 className='text-2xl font-semibold pb-3'>{items.name}</h4>
                                     <img src={items.starimg} alt="stars-img" className='m-auto pb-6' />
-                                    <p className='text-lg font-medium leading-9'>{items.detail}</p>
+                                    <p className='text-md font-medium leading-9 '>{items.detail}</p>
                                 </div>
                             </div>
                         ))}
